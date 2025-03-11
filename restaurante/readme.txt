@@ -7,7 +7,6 @@ Requisitos:
     - O restaurante recebe pedidos de um cliente.
     - O cliente realiza um pedido ao restaurante.
     - O entregador realiza a entrega de um pedido.
-    - O cliente so pode morar em um endereco.
     - O cliente deve morar apenas em uma cidade.
     - O cliente so pode morar em um Estado.
     - cada pedido deve possuir apenas uma forma de pagamento.
@@ -23,10 +22,14 @@ Requisitos:
         - quantidade de itens;
         - O cliente que realizou o pedido; 
         - A data, mes, ano e hora do pedido; 
-        - O local de entrega do pedido ;
+        - O endereco de entrega do pedido ;
         - O entregador que realizou a entrega; 
         - A forma de pagamento do pedido ;
         - O valor do pedido ;
+        - status do pedido;
+        - valor frete;
+        - restaurante onde foi realizado o pedido;
+
 
     - Cada cliente deve conter:
         - CPF
@@ -37,12 +40,9 @@ Requisitos:
         - Cidade
         - Estado 
         - Numero 
-        
-    O endereco deve ser composto de:
-        - Logradouro
-        - Descricao
-        - Cidade
-        - Estado
+        - Telefone
+        - Celular
+        - Email
 
     O entregador deve possuir os mesmos campos do cliente, além de:
         - RG
